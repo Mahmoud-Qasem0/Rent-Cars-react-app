@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  .container .row .form-sec form {
+    margin-bottom: 2rem;
+  }
+}

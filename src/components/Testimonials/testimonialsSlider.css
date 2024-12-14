@@ -1,0 +1,43 @@
+.testimonials-section {
+  background-image: url("../../assets/landing-page/sec-6/bg-sec6.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.testimonial-card {
+  max-height: 100%;
+  background: #ffffff;
+  max-width: 600px;
+  margin: 0 auto;
+}
+@media (max-width: 767px) {
+  .testimonial-card {
+    flex-direction: column;
+  }
+  .testimonial-card .testimonial-image {
+    margin-top: 20px;
+  }
+}
+.testimonial-card .testimonial-image {
+  margin-top: 20px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testimonial-card .testimonial-image img {
+  width: 16.5rem;
+  height: 16.5rem;
+}
+.testimonial-card .testimonial-rev {
+  text-align: left;
+}
+.testimonial-card .testimonial-rev h5 {
+  font-size: 1.25rem;
+}
+
+.testimonial-card .testimonial-rev p {
+  font-size: 0.9rem;
+  line-height: 1.5;
+}

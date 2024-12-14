@@ -1,0 +1,24 @@
+.car-details .sec5 {
+  align-items: center;
+}
+@media (max-width: 991px) {
+  .car-details .sec5 {
+    flex-wrap: wrap;
+  }
+  .car-details .sec5 .details {
+    margin-top: 30px;
+  }
+}
+.car-details .sec5 .details {
+  margin-right: 40px;
+  text-align: center;
+  margin: 30px auto;
+}
+.car-details .sec5 .details .desc {
+  align-items: flex-start;
+  padding: 30px;
+}
+.car-details .sec5 .details .desc .info {
+  flex-direction: column;
+  gap: 10px;
+}

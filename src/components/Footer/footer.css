@@ -1,0 +1,20 @@
+footer {
+  color: #d6d6d6;
+}
+footer .container .row ul li span {
+  font-size: 14px;
+}
+footer .container .row .links ul li {
+  font-size: 14px;
+}
+@media (max-width: 767px) {
+  footer {
+    text-align: center;
+  }
+  footer .container .row ul li span {
+    font-size: 12px;
+  }
+  footer .container .row .links ul li {
+    font-size: 12px;
+  }
+}
